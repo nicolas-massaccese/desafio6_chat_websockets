@@ -1,0 +1,28 @@
+<div style="background-color:rgb(211, 211, 211);" class="container">
+    {{>productsForm}}
+    <br>
+    <div class="container" >
+        <h1>Vista de productos</h1>
+        <div class="container">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">name</th>
+                        <th scope="col">price</th>
+                        <th scope="col">photo</th>
+                    </tr>
+                </thead>
+                <tbody id="products">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+<br>
+<div style="background-color:rgb(211, 211, 211);" class="container">
+    <h2>Centro de Mensajes</h2>
+    <table id="message" class="container"></table>
+    {{>chatForm}}
+</div>
